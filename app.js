@@ -30,6 +30,7 @@ app.post("/pay", function(req, res) {
         "return_url": "https://artisan-ecommerce-sovinnour.c9users.io/success",
         "cancel_url": "https://artisan-ecommerce-sovinnour.c9users.io/cancel"
     },
+     //Hardcoded payment gateway 
     "transactions": [{
         "item_list": {
             "items": [{
